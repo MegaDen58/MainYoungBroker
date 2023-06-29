@@ -6,9 +6,9 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="513.0" prefWidth="715.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.young.LessonController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="513.0" prefWidth="715.0" style="-fx-background-color: #2B2E4A;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.young.LessonController">
    <children>
-      <Label alignment="CENTER" layoutX="216.0" layoutY="14.0" prefHeight="107.0" prefWidth="283.0" text="Знания">
+      <Label alignment="CENTER" layoutX="216.0" layoutY="14.0" prefHeight="107.0" prefWidth="283.0" text="Знания" textFill="WHITE">
          <font>
             <Font name="System Bold" size="58.0" />
          </font>
@@ -17,17 +17,17 @@
          <font>
             <Font name="System Bold" size="20.0" />
          </font></Label>
-      <ImageView fitHeight="34.0" fitWidth="45.0" layoutX="639.0" layoutY="465.0" onMouseClicked="#goNext" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="34.0" fitWidth="45.0" layoutX="656.0" layoutY="465.0" onMouseClicked="#goNext" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../../picture/exit1.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="34.0" fitWidth="45.0" layoutX="546.0" layoutY="465.0" onMouseClicked="#goBack" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="34.0" fitWidth="45.0" layoutX="14.0" layoutY="465.0" onMouseClicked="#goBack" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../../picture/exit.png" />
          </image>
       </ImageView>
-      <Label fx:id="labelCounter" alignment="CENTER" layoutX="580.0" layoutY="465.0" prefHeight="34.0" prefWidth="60.0" text="Label" />
+      <Label fx:id="labelCounter" alignment="CENTER" layoutX="643.0" layoutY="14.0" prefHeight="34.0" prefWidth="60.0" text="Label" />
       <ImageView fx:id="backButton" fitHeight="77.0" fitWidth="103.0" layoutX="22.0" layoutY="14.0" onMouseClicked="#goMain" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../../picture/exit.png" />
